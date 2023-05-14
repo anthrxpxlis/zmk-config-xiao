@@ -23,11 +23,11 @@
             // |    2   |  2  | f   | 6    | 4    | 1    |                    | 2    | 1     | w     | s    | n     |  a    |
 
             bindings = <
-       &kp ESC  &kp DE_N0      &kp DE_N1        &kp DE_N2        &kp DE_N3        &kp DE_N4  &kp DE_N5  &kp DE_N6  &kp DE_N7  &kp DE_N8  &kp DE_N9  &kp DE_MINUS
-       &kp TAB   &kp DE_K  &kp DE_PERIOD         &kp DE_O     &kp DE_MINUS         &kp DE_Y   &kp DE_V   &kp DE_G   &kp DE_C   &kp DE_L  &kp DE_SZ      &kp DE_Z
-  &kp CAPSLOCK   &kp DE_H       &kp DE_A         &kp DE_E         &kp DE_I         &kp DE_U   &kp DE_D   &kp DE_T   &kp DE_R   &kp DE_N   &kp DE_S      &kp DE_F
-&kp LEFT_SHIFT   &kp DE_X       &kp DE_Q  &kp DE_A_UMLAUT  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT   &kp DE_B   &kp DE_P   &kp DE_W   &kp DE_M   &kp DE_J  &kp CAPSLOCK
-     &kp LCTRL   &kp BSPC          &sl 1        &kp LSHFT        &kp SPACE         &kp LALT   &kp RALT    &kp RET   &kp RGUI      &sl 2    &kp DEL     &kp RCTRL
+       &kp ESC  &kp DE_N0      &kp DE_N1        &kp DE_N2        &kp DE_N3        &kp DE_N4  &kp DE_N5  &kp DE_N6  &kp DE_N7  &kp DE_N8  &kp DE_N9    &kp DE_MINUS
+       &kp TAB   &kp DE_K  &kp DE_PERIOD         &kp DE_O     &kp DE_MINUS         &kp DE_Y   &kp DE_V   &kp DE_G   &kp DE_C   &kp DE_L   &kp DE_J  &kp DE_SHARP_S
+  &kp CAPSLOCK   &kp DE_H       &kp DE_A         &kp DE_E         &kp DE_I         &kp DE_U   &kp DE_D   &kp DE_T   &kp DE_R   &kp DE_N   &kp DE_S        &kp DE_F
+&kp LEFT_SHIFT   &kp DE_X       &kp DE_Q  &kp DE_A_UMLAUT  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT   &kp DE_B   &kp DE_P   &kp DE_W   &kp DE_M   &kp DE_Z    &kp CAPSLOCK
+     &kp LCTRL   &kp BSPC          &sl 1        &kp LSHFT        &kp SPACE         &kp LALT   &kp RALT    &kp RET   &kp RGUI      &sl 2    &kp DEL       &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
